@@ -1,0 +1,1 @@
+make FLASCC=/cygdrive/d/FLASC/sdk FLEX=/cygdrive/d/FLASC/FLEX

@@ -4618,4 +4618,14 @@ extern void glUniformMatrix4x3fv (GLint location, GLsizei count, GLboolean trans
     }
 }
 
+extern GLint glGetUniformLocation(	GLuint  	program, 	const GLchar * 	name)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glGetUniformLocation...\n");
+    }
+}
+
+
+
+
 }
