@@ -4625,6 +4625,183 @@ extern GLint glGetUniformLocation(	GLuint  	program, 	const GLchar * 	name)
     }
 }
 
+extern void APIENTRY glGenFramebuffersEXT (GLsizei, GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glGenFramebuffersEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glDeleteProgramsARB (GLsizei, const GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glDeleteProgramsARB...\n");
+    }
+}
+
+GLAPI void APIENTRY glBindFramebufferEXT (GLenum, GLuint)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glBindFramebufferEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glBufferDataARB (GLenum, GLsizeiptrARB, const GLvoid *, GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glBufferDataARB...\n");
+    }
+}
+
+GLAPI void APIENTRY glActiveTextureARB (GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glActiveTextureARB...\n");
+    }
+}
+
+GLAPI void APIENTRY glActiveStencilFaceEXT (GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glActiveStencilFaceEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glBlitFramebufferEXT (GLint, GLint, GLint, GLint, GLint, GLint, GLint, GLint, GLbitfield, GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glBlitFramebufferEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glGenVertexArrays (GLsizei, GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glGenVertexArrays...\n");
+    }
+}
+
+GLAPI GLvoid* APIENTRY glMapBufferARB (GLenum, GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glMapBufferARB...\n");
+    }
+}
+
+GLAPI GLboolean APIENTRY glUnmapBufferARB (GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glUnmapBufferARB...\n");
+    }
+}
+
+GLAPI void APIENTRY glDeleteRenderbuffersEXT (GLsizei, const GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glDeleteRenderbuffersEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glBindVertexArray (GLuint)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glBindVertexArray...\n");
+    }
+}
+
+GLAPI GLenum APIENTRY glCheckFramebufferStatusEXT (GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glCheckFramebufferStatusEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glFramebufferTexture2DEXT (GLenum, GLenum, GLenum, GLuint, GLint)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glFramebufferTexture2DEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glGenerateMipmapEXT (GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glGenerateMipmapEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glGenBuffersARB (GLsizei, GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glGenBuffersARB...\n");
+    }
+}
+
+GLAPI void APIENTRY glBindBufferARB (GLenum, GLuint)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glBindBufferARB...\n");
+    }
+}
+
+GLAPI void APIENTRY glBindRenderbufferEXT (GLenum, GLuint)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glBindRenderbufferEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glDeleteVertexArrays (GLsizei, const GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glDeleteVertexArrays...\n");
+    }
+}
+
+GLAPI void APIENTRY glFramebufferRenderbufferEXT (GLenum, GLenum, GLenum, GLuint)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glFramebufferRenderbufferEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glRenderbufferStorageEXT (GLenum, GLenum, GLsizei, GLsizei)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glRenderbufferStorageEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glDeleteBuffersARB (GLsizei, const GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glDeleteBuffersARB...\n");
+    }
+}
+
+GLAPI GLuint APIENTRY glCreateShader (GLenum)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glCreateShader...\n");
+    }
+}
+
+GLAPI void APIENTRY glGenRenderbuffersEXT (GLsizei, GLuint *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glGenRenderbuffersEXT...\n");
+    }
+}
+
+GLAPI void APIENTRY glCompressedTexImage2DARB (GLenum, GLint, GLenum, GLsizei, GLsizei, GLint, GLsizei, const GLvoid *)
+{
+    if(stubMsg) {
+        fprintf(stderr, "stubbed glCompressedTexImage2DARB...\n");
+    }
+}
+
+
+
 
 
 
